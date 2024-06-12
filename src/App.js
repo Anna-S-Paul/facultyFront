@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/add' element={<AddFaculty/>}/>
+      <Route path='/' element={<AddFaculty/>}/>
       <Route path='/search' element={<SearchFaculty/>}/>
       <Route path='/viewall' element={<ViewFaculty/>}/>
     </Routes>
