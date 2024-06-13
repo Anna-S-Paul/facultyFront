@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import NavFaculty from './NavFaculty'
 import axios from 'axios'
 
-const ViewFaculty = () => {
+const ViewFacultynew = () => {
         const [data, changeData] = useState([])
         const fetchData = () => {
             axios.get("http://localhost:8089/viewall").then(
@@ -56,4 +56,4 @@ const ViewFaculty = () => {
   )
 }
 
-export default ViewFaculty
+export default ViewFacultynew
